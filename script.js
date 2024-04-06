@@ -1,7 +1,7 @@
 
 function getInputValue() {
 const value = decument.querySelector("numer-input").value
-const num = decument.querySelector("var")
+const num = decument.querySelector("result")
 num.innerHTML = value / 39.37
 }
 
