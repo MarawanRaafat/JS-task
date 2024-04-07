@@ -1,11 +1,11 @@
 
-function getInputValue() {
-const value = decument.querySelector("numer-input").value
-const num = decument.querySelector("result")
+function getInputValue(){
+const value = document.querySelector(".numer-input").value
+const num = document.querySelector("result")
 num.innerHTML = value / 39.37
 }
 
-decument.querySelector("calculate").onclick = getInputValue
+decument.querySelector(".calculate").onclick = getInputValue
 
 // ايه المشكلة بقا ؟
 // و انا رابط الينك صح 😁
